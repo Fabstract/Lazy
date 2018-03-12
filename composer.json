@@ -1,0 +1,32 @@
+{
+  "name": "fabstract/lazy",
+  "type": "library",
+  "description": "Lazy loading for PHP",
+  "keywords": [
+    "php",
+    "lazy"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ahmet Turk",
+      "email": "ahmetturk93@gmail.com",
+      "homepage": "https://github.com/fabstract"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Fabs\\Component\\Lazy\\": "src"
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "fabstract/assert": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:Fabstract/Assert.git"
+    }
+  ]
+}
