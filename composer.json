@@ -16,7 +16,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Fabs\\Component\\Lazy\\": "src"
+      "Fabstract\\Component\\Lazy\\": "src"
     }
   },
   "require": {

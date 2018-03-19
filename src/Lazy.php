@@ -1,8 +1,8 @@
 <?php
 
-namespace Fabs\Component\Lazy;
+namespace Fabstract\Component\Lazy;
 
-use Fabs\Component\Assert\Assert;
+use Fabstract\Component\Assert\Assert;
 
 class Lazy
 {
