@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7159b922f01a9a8ef75f48841159faa1",
+    "packages": [
+        {
+            "name": "fabstract/assert",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fabstract/Assert.git",
+                "reference": "8e9e54e2de650c24ed86e6a4b7201f6fcb4db4b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fabstract/Assert/zipball/8e9e54e2de650c24ed86e6a4b7201f6fcb4db4b8",
+                "reference": "8e9e54e2de650c24ed86e6a4b7201f6fcb4db4b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fabstract\\Component\\Assert\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ahmet Turk",
+                    "email": "ahmetturk93@gmail.com",
+                    "homepage": "https://github.com/fabstract"
+                }
+            ],
+            "description": "Assertion for PHP",
+            "keywords": [
+                "assert",
+                "php"
+            ],
+            "support": {
+                "source": "https://github.com/Fabstract/Assert/tree/master",
+                "issues": "https://github.com/Fabstract/Assert/issues"
+            },
+            "time": "2018-03-19T12:16:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "fabstract/assert": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.0"
+    },
+    "platform-dev": []
+}
